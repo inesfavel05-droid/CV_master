@@ -1,0 +1,380 @@
+
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CV Inès Favel</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="..." crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <style>
+        /* Styles de base */
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f7f7f7;
+            margin: 0;
+            padding: 20px;
+        }
+
+        .cv-container {
+            max-width: 900px;
+            margin: 0 auto;
+            background-color: #ffffff;
+            padding: 30px 40px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+
+        /* En-tête */
+        .header {
+            border-bottom: 4px solid #1f2937; /* border-gray-800 */
+            padding-bottom: 25px;
+            margin-bottom: 25px;
+        }
+
+        .header h1 {
+            font-size: 2.25rem; /* text-4xl */
+            font-weight: bold;
+            color: #111827; /* text-gray-900 */
+            margin-bottom: 8px;
+        }
+
+        .header p {
+            margin-bottom: 12px;
+            color: #4b5563; /* text-gray-700 */
+        }
+
+        .header .subtitle {
+            font-size: 1.25rem; /* text-xl */
+        }
+
+        .header .application-info {
+            font-size: 1.125rem; /* text-lg */
+            color: #4b5563; /* text-gray-600 */
+        }
+        .contact-info {
+    display: flex;
+    flex-wrap: wrap; 
+    gap: 16px; 
+    font-size: 0.875rem; 
+    color: #4b5563; 
+}
+
+.contact-item {
+    display: flex;
+    align-items: center; 
+    gap: 8px; 
+}
+
+/* Nouvel ajustement pour les icônes basées sur des images */
+.icon {
+    width: 16px; /* Ajuste la taille de l'icône à 16x16 pixels */
+    height: 16px;
+    display: block;
+}
+
+        /* Sections */
+        section {
+            margin-bottom: 25px;
+        }
+
+        section h2 {
+            font-size: 1.5rem; /* text-2xl */
+            font-weight: bold;
+            color: #111827; /* text-gray-900 */
+            margin-bottom: 12px;
+            border-bottom: 2px solid #d1d5db; /* border-gray-300 */
+            padding-bottom: 4px;
+        }
+
+        section p {
+            color: #374151; /* text-gray-700 */
+            line-height: 1.6;
+        }
+
+        /* Formation & Expériences */
+        .entry-container {
+            margin-bottom: 16px;
+        }
+
+        .entry-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: flex-start;
+            margin-bottom: 4px;
+        }
+
+        .entry-header h3 {
+            font-weight: bold;
+            color: #111827; /* text-gray-900 */
+        }
+
+        .entry-header span {
+            color: #4b5563; /* text-gray-600 */
+            white-space: nowrap; /* Empêche le saut de ligne pour la date */
+        }
+
+        .italic {
+            font-style: italic;
+            margin-bottom: 8px;
+        }
+
+        ul {
+            color: #374151; /* text-gray-700 */
+            margin-left: 25px;
+            list-style-type: disc;
+            padding: 0;
+            line-height: 1.5;
+        }
+
+        ul li {
+            margin-bottom: 4px;
+        }
+        
+        /* Compétences, Langues, Intérêts (Mise en page en grille) */
+        .two-column-grid {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 20px;
+        }
+        
+        .grid-item p {
+        /* Diminution de la marge par défaut pour un espacement plus serré */
+        margin-top: 2px;
+        margin-bottom: 2px;
+       /* Assure que la couleur reste la même */
+      color: #374151; /* text-gray-700 */
+      }
+
+      .grid-item h3 {
+      font-weight: bold;
+      color: #111827; /* text-gray-900 */
+      /* On s'assure qu'il y a un petit espace après le titre, mais moins qu'avant */
+      margin-bottom: 12px;}
+
+        @media (max-width: 600px) {
+            .contact-info {
+                flex-direction: column;
+                gap: 5px;
+            }
+            .two-column-grid {
+                grid-template-columns: 1fr;
+            }
+            .cv-container {
+                padding: 20px;
+            }
+        }
+
+    </style>
+</head>
+<body>
+
+<div class="cv-container">
+    
+    <div class="header">
+        <h1>INÈS FAVEL</h1>
+        <p class="subtitle">Étudiante en Information & Communication</p>
+        <p class="application-info">
+            Candidature Master : Stratégies Créatives, Gestion de Projets & Production Audiovisuelle
+        </p>
+        
+        <div class="contact-info">
+          <div class="contact-item">
+              <i class="fas fa-phone icon"></i> 
+              <span>06.37.12.58.89</span>
+          </div>
+          <div class="contact-item">
+              <i class="fas fa-envelope icon"></i>
+              <span>ines.favel05@gmail.com</span>
+          </div>
+          <div class="contact-item">
+              <i class="fas fa-map-marker-alt icon"></i>
+              <span>Paris (75)</span>
+          </div>
+          <div class="contact-item">
+              <i class="fab fa-linkedin icon"></i>
+              <span>linkedin.com/in/inès-favel</span>
+          </div>
+      </div>
+    </div>
+
+    <section>
+        <h2>PROFIL</h2>
+        <p>
+            Actuellement en 3ème année de Licence Information & Communication, parcours Industries Médiatiques et Créatives
+            à l'Université Côte d'Azur, je me passionne pour tout ce qui touche à la création : de l'élaboration d'une
+            stratégie créative à sa concrétisation en passant par la coordination de projets audiovisuels. Ce qui m'anime
+            vraiment, c'est de piloter un projet de bout en bout, que ce soit dans le cinéma, la mode ou la musique.
+            Mon expérience chez Raise Up Films m'a confirmé que c'est dans cet univers créatif et cette polyvalence que
+            je veux évoluer professionnellement.
+        </p>
+    </section>
+
+    <section>
+        <h2>FORMATION</h2>
+        
+        <div class="entry-container">
+            <div class="entry-header">
+                <h3>Licence Information & Communication</h3>
+                <span>2023 - 2026</span>
+            </div>
+            <p>Parcours Industries Médiatiques et Créatives</p>
+            <p>Université Côte d'Azur, Nice</p>
+        </div>
+        
+        <div class="entry-container">
+            <div class="entry-header">
+                <h3>Baccalauréat Général</h3>
+                <span>2023</span>
+            </div>
+            <p>Spécialités : SES, HGGSP, Mathématiques</p>
+        </div>
+        
+        <div class="entry-container">
+            <h3 style="margin-bottom: 4px;">Formations complémentaires</h3>
+            <p>• Formation d'anglais (6 mois, CNED)</p>
+            <p>• Permis B et permis bateau côtier</p>
+        </div>
+    </section>
+
+    <section>
+        <h2>EXPÉRIENCES PROFESSIONNELLES</h2>
+        
+        <div class="entry-container">
+            <div class="entry-header">
+                <h3>Chargée de Communication Externe</h3>
+                <span>2025 - Actuellement</span>
+            </div>
+            <p class="italic">A Bord Permis Bateau, Nice</p>
+            <ul>
+                <li>Organisation et coordination d'événements promotionnels</li>
+                <li>Gestion et création de contenu pour les réseaux sociaux (Instagram, TikTok)</li>
+                <li>Développement de la stratégie de communication digitale</li>
+            </ul>
+        </div>
+        
+        <div class="entry-container">
+            <div class="entry-header">
+                <h3>Mannequin</h3>
+                <span>2025 - Actuellement</span>
+            </div>
+            <p class="italic">Agence Ego Models / Créateurs Niçois</p>
+            <ul>
+                <li>Défilés pour créateurs locaux et représentation de marques</li>
+                <li>Shootings photo et collaboration avec des équipes créatives</li>
+                <li>Gestion de mon image professionnelle et réseaux</li>
+            </ul>
+        </div>
+        
+        <div class="entry-container">
+            <div class="entry-header">
+                <h3>Hôtesse Événementiel (Intérim)</h3>
+                <span>2025 - Actuellement</span>
+            </div>
+            <p class="italic">CRIT & Actual Events</p>
+            <ul>
+                <li>Service lors d'événements professionnels et grand public</li>
+                <li>Accueil et relation client dans des contextes variés</li>
+            </ul>
+        </div>
+        
+        <div class="entry-container">
+            <div class="entry-header">
+                <h3>Vendeuse / Serveuse / Commis de Cuisine</h3>
+                <span>2024</span>
+            </div>
+            <p class="italic">Areas - Restaurant de concession</p>
+            <p>Polyvalence en restauration et service client</p>
+        </div>
+        
+        <div class="entry-container">
+            <div class="entry-header">
+                <h3>Secrétaire / Hôtesse d'Accueil</h3>
+                <span>2023</span>
+            </div>
+            <p class="italic">Société Générale, Nice</p>
+        </div>
+    </section>
+
+    <section>
+        <h2>STAGE EN PRODUCTION AUDIOVISUELLE</h2>
+        
+        <div class="entry-container">
+            <div class="entry-header">
+                <h3>Stage en Production Audiovisuelle & Publicité</h3>
+                <span>Mai - Juin 2025</span>
+            </div>
+            <p class="italic">Raise Up Films, Nice</p>
+            <ul>
+                <li><strong>Préproduction :</strong> Participation aux projets La Macif, Skip, compétition Senseo</li>
+                <li><strong>Production :</strong> Assistance sur les tournages Quick, La Macif, Skip Comedy Show</li>
+                <li><strong>Networking :</strong> Présence au Festival de Cannes Lions (16-20 juin), Festival international de la créativité & Grand Prix des Stratégies Digitales 2025 (organisé par Stratégies)</li>
+            </ul>
+        </div>
+    </section>
+
+    <section>
+        <h2>ENGAGEMENTS & PROJETS</h2>
+        
+        <div class="entry-container">
+            <h3>Jury des Prix Cinéma des Étudiants France Culture</h3>
+            <p>2025</p>
+        </div>
+        
+        <div class="entry-container">
+            <h3>Ambassadrice Pass Culture</h3>
+            <p style="margin-bottom: 4px;">2023 - 2024</p>
+            <ul>
+                <li>Organisation d'événements et communication culturelle</li>
+                <li>Développement de partenariats locaux (Stockfisch, musées de Nice)</li>
+            </ul>
+        </div>
+        
+        <div class="entry-container">
+            <h3>Événementiel Scolaire</h3>
+            <p>Organisation et animation de kermesses et spectacles d'écoles</p>
+        </div>
+    </section>
+
+    <section>
+        <h2>COMPÉTENCES</h2>
+        
+        <div class="two-column-grid">
+            <div class="grid-item">
+                <h3>Outils & Logiciels</h3>
+                <p>• Pack Microsoft Office</p>
+                <p>• Canva, CapCut, Final Cut Pro</p>
+                <p>• Réseaux sociaux : Instagram, TikTok</p>
+            </div>
+            
+            <div class="grid-item">
+                <h3>Savoir-être</h3>
+                <p>• Autonomie et adaptabilité</p>
+                <p>• Persévérance et curiosité</p>
+                <p>• Organisation et esprit d'équipe</p>
+                <p>• Relation client</p>
+            </div>
+        </div>
+    </section>
+
+    <section>
+        <h2>LANGUES & CENTRES D'INTÉRÊT</h2>
+        
+        <div class="two-column-grid">
+            <div class="grid-item">
+                <h3>Langues</h3>
+                <p>• Français : Langue maternelle</p>
+                <p>• Anglais : Niveau intermédiaire</p>
+                <p>• Espagnol : Débutante</p>
+            </div>
+            
+            <div class="grid-item">
+                <h3>Centres d'intérêt</h3>
+                <p>• Photographie & création visuelle</p>
+                <p>• Cinéma, mode et culture</p>
+                <p>• Sport : équitation, fitness, running</p>
+            </div>
+        </div>
+    </section>
+</div>
+
+</body>
+</html>
